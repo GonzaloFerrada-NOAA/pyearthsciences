@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+
+# Personal dev/scratch files, not part of the installable package
+dev/

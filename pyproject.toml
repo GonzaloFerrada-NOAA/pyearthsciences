@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyearthsciences"
+version = "0.1.0"
+description = "Plotting & mapping utilities (MATLAB ports) for Earth sciences"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{ name = "Gonzalo A. Ferrada", email = "gonzalo.ferrada@noaa.gov" }]
+
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "scipy"
+]
+
+[tool.setuptools]
+packages = ["pyearthsciences"]
+
+[tool.setuptools.package-data]
+pyearthsciences = ["*.csv", "*.npz"]
