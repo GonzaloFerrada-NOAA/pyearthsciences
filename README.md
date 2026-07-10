@@ -9,7 +9,7 @@ handled with plain Matplotlib.
 ## Installation
 
 ```bash
-pip install git+https://github.com/<your-username>/pyearthsciences.git
+pip install git+https://github.com/GonzaloFerrada-NOAA/pyearthsciences.git
 ```
 
 This works the same whether your target Python is a plain venv or a conda
@@ -22,7 +22,7 @@ For local development (editable install, so edits to the source take effect
 immediately without reinstalling):
 
 ```bash
-git clone https://github.com/<your-username>/pyearthsciences.git
+git clone https://github.com/GonzaloFerrada-NOAA/pyearthsciences.git
 cd pyearthsciences
 pip install -e .
 ```
