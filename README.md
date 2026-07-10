@@ -1,7 +1,7 @@
 # pyearthsciences
 
-Plotting & mapping utilities for Earth sciences, ported from a MATLAB toolkit
-of the same purpose. Built to plot georeferenced 2-D data (model output,
+Plotting & mapping utilities for Earth sciences, ported from a [MATLAB toolkit
+of the same purpose](https://github.com/GonzaloFerrada-NOAA/matlab-earth-sciences). Built to plot georeferenced 2-D data (model output,
 satellite retrievals, etc.) on projected maps **without** the MATLAB Mapping
 Toolbox or Cartopy — projections, coastlines/borders, and colorbars are all
 handled with plain Matplotlib.
